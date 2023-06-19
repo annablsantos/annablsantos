@@ -7,7 +7,7 @@ This project contains a collection of fun exercises implemented in Java. It serv
 
 ## About the Project
 
-As a student with a background in front-end development, this repository showcases my journey in learning and exploring the Java programming language. The exercises presented here are meant to improve my Java skills and reinforce important programming concepts.
+As a student with a professional background in mostly front-end development, this repository showcases my journey in learning and exploring the Java programming language for back-end development. The exercises presented here are meant to improve my Java skills and reinforce important programming concepts.
 
 ## Project Structure
 
