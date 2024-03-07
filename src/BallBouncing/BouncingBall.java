@@ -22,24 +22,22 @@ the window parameter.
 */
 public class BouncingBall {
     public static int bouncingBall(double h, double bounce, double window) {
-        // check three conditions
         if (h <= 0 || bounce <= 0 || bounce >= 1 || window >= h) {
             return -1;
         }
 
-        // number of times the mother sees the ball
+       // number of times the mother sees the ball
         int count = 0;
 
         while (h > window) {
             count++;
             h *= bounce;
-
-            // check if the bounce height is greater than the window height
+            
             if (h > window) {
                 count++;
             }
         }
-
+        
         return count;
     }
 }
